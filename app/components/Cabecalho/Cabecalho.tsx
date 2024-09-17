@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "../../imgs/Logo.png"
+import Logo from "../../imgs/logo.png"
 import { ItemDoCabecalho } from "../ItemDoCabecalho/ItemDoCabecalho"
 
 export function Cabecalho() {
