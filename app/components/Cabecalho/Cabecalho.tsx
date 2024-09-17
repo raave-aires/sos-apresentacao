@@ -11,7 +11,7 @@ export function Cabecalho() {
                         src={Logo}
                         alt="Logo do projeto"
                         height={30}
-                        width={83.48}
+                        priority
                     /> {/*esse é um componente do Next.js que tem funções embutidas de otimização de imagens*/}
                 </a>
                 
@@ -35,7 +35,6 @@ export function Cabecalho() {
                     </ul>
                 </nav>
             </div>
-
         </header>
     );
 }
