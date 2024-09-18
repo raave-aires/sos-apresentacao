@@ -8,9 +8,10 @@ interface Props{
     nome: string,
     titulo: string,
     github: string,
+    linkedin: string
 }
 
-export function ProfileCard({foto, desc_foto, nome, titulo, github}: Props) {
+export function ProfileCard({foto, desc_foto, nome, titulo, github, linkedin}: Props) {
     const container_de_cartoes = useRef<HTMLDivElement>(null);
 
     const applyOverlayMask = (e: PointerEvent)=>{        
@@ -61,6 +62,14 @@ export function ProfileCard({foto, desc_foto, nome, titulo, github}: Props) {
                         >
                             GitHub
                         </a>
+
+                        <a
+                            href={linkedin}
+                            target="_blank"
+                            className="block bg-black rounded-lg p-3 w-full text-center font-semibold mt-auto"
+                        >
+                            LinkedIn
+                        </a>
                     </div>
                 </div>
 
@@ -100,6 +109,14 @@ export function ProfileCard({foto, desc_foto, nome, titulo, github}: Props) {
                             className="block bg-[#216ee2] rounded-lg p-3 w-full text-center font-semibold mt-auto"
                         >
                             GitHub
+                        </a>
+
+                        <a
+                            href={linkedin}
+                            target="_blank"
+                            className="block bg-[#9431ce] rounded-lg p-3 w-full text-center font-semibold mt-auto"
+                        >
+                            LinkedIn
                         </a>
                     </div>
                 </div>

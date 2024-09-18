@@ -9,6 +9,10 @@ import Ian from "./imgs/ian.png"
 import Pedro from "./imgs/pedro.png"
 import Raave from "./imgs/raave.png"
 import Walacy from "./imgs/walacy.png"
+import Diego from "./imgs/diego.jpg"
+import Fransico from "./imgs/francisco.jpg"
+import Pablo from "./imgs/pablo.jpg"
+import Lucas from "./imgs/lucas.jpg"
 
 export default function Home() {
     return (
@@ -52,6 +56,14 @@ export default function Home() {
                     
 
                     <div className="flex flex-wrap gap-6">
+                        <ProfileCard 
+                            foto={Diego}
+                            desc_foto="Foto de Diego Passos"
+                            nome="Diego Passos"
+                            titulo="Desenvolvedor Back-end"
+                            github="https://github.com/aweirdtrashcan"
+                            linkedin="https://www.linkedin.com/in/diegodrpti/overlay/photo/"
+                        />
 
                         <ProfileCard 
                             foto={Evandro}
@@ -59,6 +71,16 @@ export default function Home() {
                             nome="Evandro Pascoal"
                             titulo="Desenvolvedor Front-end"
                             github="https://github.com/EvandroPascoal"
+                            linkedin=""
+                        />
+
+                        <ProfileCard 
+                            foto={Fransico}
+                            desc_foto="Foto de Francisco Araújo"
+                            nome="Francisco Araújo"
+                            titulo="Desenvolvedor Back-end"
+                            github="https://github.com/FranciscoAraujo95/"
+                            linkedin="https://www.linkedin.com/in/francisco-araujo-java/"
                         />
 
                         <ProfileCard 
@@ -67,6 +89,25 @@ export default function Home() {
                             nome="Ian Alves"
                             titulo="Designer de UX/UI"
                             github="https://github.com/iaanalves"
+                            linkedin=""
+                        />
+
+                        <ProfileCard 
+                            foto={Lucas}
+                            desc_foto="Foto de Lucas Garcia"
+                            nome="Lucas Garcia"
+                            titulo="Desenvolvedor Back-end"
+                            github="https://github.com/Lucasgarcc"
+                            linkedin="https://www.linkedin.com/in/lucas-garcia-l/"
+                        />
+
+                        <ProfileCard 
+                            foto={Pablo}
+                            desc_foto="Foto de Pablo Araújo"
+                            nome="Pablo Araújo"
+                            titulo="Desenvolvedor Back-end"
+                            github="https://github.com/pablwoAraujo"
+                            linkedin="https://www.linkedin.com/in/pablwoaraujo/"
                         />
 
                         <ProfileCard 
@@ -75,6 +116,7 @@ export default function Home() {
                             nome="Pedro Henrique"
                             titulo="Desenvolvedor Back-end"
                             github="https://github.com/pecodigos"
+                            linkedin=""
                         />
 
                         <ProfileCard 
@@ -83,6 +125,7 @@ export default function Home() {
                             nome="Raavë Aires"
                             titulo="Desenvolvedor Front-end"
                             github="https://github.com/raave-aires"
+                            linkedin=""
                         />
 
                         <ProfileCard 
@@ -91,6 +134,7 @@ export default function Home() {
                             nome="Walacy Silva"
                             titulo="Desenvolvedor Back-end"
                             github="https://github.com/walacysilvam"
+                            linkedin=""
                         />
                     </div>
 
