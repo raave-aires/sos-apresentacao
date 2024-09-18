@@ -22,7 +22,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="pt-BR" className="dark max-w-screen bg-red-600 overflow-x-hidden">
+		<html lang="pt-BR" className="dark max-w-screen bg-red-600 overflow-x-hidden scroll-smooth">
 			<body className={`${inter.variable} antialiased`}>
 				<Providers>
 					<Cabecalho />

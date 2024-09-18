@@ -1,7 +1,7 @@
 import { CardInformativo } from "./components/CardInformativo/CardInformativo";
 import { ProfileCard } from "./components/ProfileCard/ProfileCard";
 import { Section } from "./components/Section/Section";
-import {Button} from "@nextui-org/button";
+import { Tooltip, Button } from "@nextui-org/react";
 
 //fotos:
 import Evandro from "./imgs/evandro.jpg"
@@ -94,12 +94,12 @@ export default function Home() {
                         />
                     </div>
 
-                    <a href="mailto:teamsevencontato@gmail.com">
-                        <Button
-                            variant="shadow"
+                    <a href="mailto:teamsevencontato@gmail.com" target="_blank">
+                        <Tooltip
+                            showArrow={true} content="Clique para enviar um e-mail"
                         >
-                            Contate-nos
-                        </Button>
+                            <Button color="primary">Contate-nos</Button>
+                        </Tooltip>
                     </a>
                 </section> 
             </main>
