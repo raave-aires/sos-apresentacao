@@ -24,12 +24,12 @@ export function Cabecalho() {
                         />
 
                         <ItemDoCabecalho
-                            link_do_item="#inicio"
+                            link_do_item="#objetivo"
                             texto_do_item="Objetivo"
                         />
 
                         <ItemDoCabecalho
-                            link_do_item="#inicio"
+                            link_do_item="#sobre_nos"
                             texto_do_item="Sobre nós"
                         />
                     </ul>
