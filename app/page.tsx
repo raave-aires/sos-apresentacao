@@ -150,7 +150,7 @@ export default function Home() {
 
             <footer className="h-14 w-screen bg-[#262626cb] z-10 flex justify-center">
                 <div className="w-4/5 flex justify-start items-center">
-                    <p>(C) 12.024 SE7EN</p>
+                    <p>(C) 12.024 SE7EN - Névoa Eletrica</p>
                 </div>
             </footer>
         </>
