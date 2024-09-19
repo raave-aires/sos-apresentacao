@@ -96,7 +96,7 @@ export default function Home() {
                             foto={Lucas}
                             desc_foto="Foto de Lucas Garcia"
                             nome="Lucas Garcia"
-                            titulo="Desenvolvedor Back-end"
+                            titulo="Desenvolvedor Front-end"
                             github="https://github.com/Lucasgarcc"
                             linkedin="https://www.linkedin.com/in/lucas-garcia-l/"
                         />
