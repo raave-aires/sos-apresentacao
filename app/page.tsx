@@ -10,7 +10,7 @@ import Pedro from "./imgs/pedro.png"
 import Raave from "./imgs/raave.png"
 import Walacy from "./imgs/walacy.png"
 import Diego from "./imgs/diego.jpg"
-import Fransico from "./imgs/francisco.jpg"
+import Fransisco from "./imgs/francisco.jpg"
 import Pablo from "./imgs/pablo.jpg"
 import Lucas from "./imgs/lucas.jpg"
 
@@ -71,11 +71,11 @@ export default function Home() {
                             nome="Evandro Pascoal"
                             titulo="Desenvolvedor Front-end"
                             github="https://github.com/EvandroPascoal"
-                            linkedin=""
+                            linkedin="https://www.linkedin.com/in/evandro-pascoal-/"
                         />
 
                         <ProfileCard 
-                            foto={Fransico}
+                            foto={Fransisco}
                             desc_foto="Foto de Francisco Araújo"
                             nome="Francisco Araújo"
                             titulo="Desenvolvedor Back-end"
@@ -89,7 +89,7 @@ export default function Home() {
                             nome="Ian Alves"
                             titulo="Designer de UX/UI"
                             github="https://github.com/iaanalves"
-                            linkedin=""
+                            linkedin="https://www.linkedin.com/in/ian-avslima/"
                         />
 
                         <ProfileCard 
@@ -116,7 +116,7 @@ export default function Home() {
                             nome="Pedro Henrique"
                             titulo="Desenvolvedor Back-end"
                             github="https://github.com/pecodigos"
-                            linkedin=""
+                            linkedin="https://www.linkedin.com/in/pe-drenrique/"
                         />
 
                         <ProfileCard 
@@ -125,7 +125,7 @@ export default function Home() {
                             nome="Raavë Aires"
                             titulo="Desenvolvedor Front-end"
                             github="https://github.com/raave-aires"
-                            linkedin=""
+                            linkedin="https://www.linkedin.com/in/raave-aires"
                         />
 
                         <ProfileCard 
@@ -134,7 +134,7 @@ export default function Home() {
                             nome="Walacy Silva"
                             titulo="Desenvolvedor Back-end"
                             github="https://github.com/walacysilvam"
-                            linkedin=""
+                            linkedin="https://www.linkedin.com/in/walacysilva/"
                         />
                     </div>
 
